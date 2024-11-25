@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Shopee</title>
+    <style>
+        /* Menambahkan background untuk halaman */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container utama untuk mempercantik tampilan */
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* Judul halaman */
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        /* Gaya untuk link Shopee */
+        .shopee-link {
+            display: inline-block;
+            background-color: #fb3958; /* Warna merah Shopee */
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Efek hover pada link */
+        .shopee-link:hover {
+            background-color: #f77b8b; /* Warna merah muda saat hover */
+            transform: scale(1.1);
+        }
+
+        /* Responsif untuk layar kecil */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            .shopee-link {
+                font-size: 16px;
+                padding: 12px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Selamat Datang di Shopee</h1>
+        <a href="https://shopee.co.id/aunggrdn809?tab=shop" class="shopee-link" target="_blank">Kunjungi Shopee</a>
+    </div>
+
+</body>
+</html>
